@@ -6,4 +6,10 @@ describe('Array', () => {
         console.log(names)
         console.log(numbers)
     })
+
+    it('should support readonly array', () => {
+        const names: ReadonlyArray<string> = ["cut", "muty", "ahmad"]
+        console.log(names)
+        
+    })
 })

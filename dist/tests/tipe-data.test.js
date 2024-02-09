@@ -1,6 +1,6 @@
 "use strict";
 describe('Data type', () => {
-    it('shhould must declare', () => {
+    it('should must declare', () => {
         const name = "Tjoet Muty Ahmad";
         const balance = 100;
         const isTrue = true;
