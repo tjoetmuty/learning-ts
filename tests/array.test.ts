@@ -12,4 +12,9 @@ describe('Array', () => {
         console.log(names)
         
     })
+
+    it('should support tuple', () => {
+        const people: readonly [string, string, number] = ["halo", "muty", 20]
+        console.log(people)
+    })
 })

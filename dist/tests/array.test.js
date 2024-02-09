@@ -10,4 +10,8 @@ describe('Array', () => {
         const names = ["cut", "muty", "ahmad"];
         console.log(names);
     });
+    it('should support tuple', () => {
+        const people = ["halo", "muty", 20];
+        console.log(people);
+    });
 });
