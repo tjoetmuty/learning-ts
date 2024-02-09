@@ -1,5 +1,5 @@
 describe('Data type', () => {
-    it('shhould must declare', () => {
+    it('should must declare', () => {
         const name :string = "Tjoet Muty Ahmad"
         const balance : number = 100
         const isTrue: boolean = true
