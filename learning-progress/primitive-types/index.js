@@ -1,5 +1,5 @@
 "use strict";
-//data type
+//data types
 //1. string
 const halo = "muty";
 const age = 3;
@@ -22,3 +22,13 @@ let userRole; //null tidak sama dengan undefined
 userRole = null;
 console.log(userRole);
 console.log(user === userRole); // they are different. so the output is false
+//PRACTICE
+//there are a lots variables that have been declared dan the each values have assigned
+//what i have to do is i have to strictly type each of these variables
+let message = "Hello, typescript!";
+let newAge = 42;
+let isStudent = true;
+let fetched = null;
+let newUser = undefined;
+let largeNumber = 9007199254n;
+let unique = Symbol("helloUnique");
