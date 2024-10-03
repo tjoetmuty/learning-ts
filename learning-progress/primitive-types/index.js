@@ -1,5 +1,5 @@
 "use strict";
-//data types
+//primitive types (data types)
 //1. string
 const halo = "muty";
 const age = 3;
@@ -32,3 +32,13 @@ let fetched = null;
 let newUser = undefined;
 let largeNumber = 9007199254n;
 let unique = Symbol("helloUnique");
+//typescript's type system
+//1. unknown type
+const multyplyTwo = (number) => {
+    if (typeof number === "number") {
+        return number * 2;
+    }
+    return "berikan valid number";
+};
+console.log(multyplyTwo(2));
+console.log(multyplyTwo("string"));
