@@ -39,15 +39,3 @@ let fetched: null = null;
 let newUser: undefined = undefined;
 let largeNumber: bigint = 9007199254n;
 let unique: symbol = Symbol("helloUnique");
-
-//typescript's type system
-//1. unknown type
-const multyplyTwo = (number: unknown) => {
-  if (typeof number === "number"){
-    return number * 2
-  }
-  return "berikan valid number"
-}
-
-console.log(multyplyTwo(2))
-console.log(multyplyTwo("string"))
