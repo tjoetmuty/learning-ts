@@ -10,12 +10,20 @@ const multyplyTwo = (number: unknown) => {
 console.log(multyplyTwo(2));
 console.log(multyplyTwo("string"));
 
-//2. type alias
+//2. type alias & declaration, annotation, inference
 // we can make our own type with custom (can be written with Pascal case or camel Case)
-type CustomString = string;
+type CustomString = string; //declaration (Whenever it's a complex type, declare it.)
 //example:
-const nama: CustomString = "muty";
+let nama: CustomString = "muty"; // annotation (Whenever a type can be annotated easily, go ahead and annotate it.)
 
 type CustomNumber = number;
 //example:
-const myAge: CustomNumber = 20
+let myAge: CustomNumber = 20
+
+//inference
+const tahun = (a: number, b:CustomNumber ) => {
+  return a + b
+}
+
+const totalAges = tahun(20, 22)
+console.log(totalAges)

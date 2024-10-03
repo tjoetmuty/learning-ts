@@ -10,6 +10,12 @@ const multyplyTwo = (number) => {
 console.log(multyplyTwo(2));
 console.log(multyplyTwo("string"));
 //example:
-const nama = "muty";
+let nama = "muty"; // annotation (Whenever a type can be annotated easily, go ahead and annotate it.)
 //example:
-const myAge = 20;
+let myAge = 20;
+//inference
+const tahun = (a, b) => {
+    return a + b;
+};
+const totalAges = tahun(20, 22);
+console.log(totalAges);
