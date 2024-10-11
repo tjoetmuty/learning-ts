@@ -7,8 +7,8 @@ const multyplyTwo = (number: unknown) => {
   return "berikan valid number";
 };
 
-console.log(multyplyTwo(2));
-console.log(multyplyTwo("string"));
+// console.log(multyplyTwo(2));
+// console.log(multyplyTwo("string"));
 
 //2. type alias & declaration, annotation, inference
 // we can make our own type with custom (can be written with Pascal case or camel Case)
@@ -26,4 +26,6 @@ const tahun = (a: number, b:CustomNumber ) => {
 }
 
 const totalAges = tahun(20, 22)
-console.log(totalAges)
+// console.log(totalAges)
+
+//3. union type (combining two or more types together)
